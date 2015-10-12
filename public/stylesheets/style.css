@@ -7,19 +7,22 @@ a {
 }
 
 img.logo {
-  height: 4rem;
+  height: 60px;
 }
 
 nav {
   margin-top: 50px;
 }
 
-nav .navbar {
+nav.navbar {
   height: 60px;
+  padding: 0;
+  margin-bottom: 60px;
 }
 
 nav.navbar a {
-  font-size: 1rem;
+  font-size: 16px;
+  line-height: 20px;
   color: #999;
   font-weight: 600;
 }
@@ -29,10 +32,29 @@ nav.navbar a:hover {
 }
 
 .navbar-nav .nav-link {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding: 20px 0;
 }
 
 .navbar-nav .nav-item + .nav-item {
   margin-left: 2rem;
+}
+
+p, ul, li {
+  font-size: 1.05rem;
+  line-height: 1.8rem;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+h4 {
+  font-weight: 200;
+  margin-top: 3rem;
+  color: #333;
+}
+
+footer {
+  margin-top: 160px;
+  margin-bottom: 160px;
 }
