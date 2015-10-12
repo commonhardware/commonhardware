@@ -1,5 +1,4 @@
 body {
-  padding: 50px;
   font: 14px "Source Sans Pro", "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
@@ -8,5 +7,32 @@ a {
 }
 
 img.logo {
+  height: 4rem;
+}
+
+nav {
+  margin-top: 50px;
+}
+
+nav .navbar {
   height: 60px;
+}
+
+nav.navbar a {
+  font-size: 1rem;
+  color: #999;
+  font-weight: 600;
+}
+
+nav.navbar a:hover {
+  color: #333;
+}
+
+.navbar-nav .nav-link {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.navbar-nav .nav-item + .nav-item {
+  margin-left: 2rem;
 }
